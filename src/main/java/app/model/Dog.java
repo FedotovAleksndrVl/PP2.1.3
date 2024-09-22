@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 @Component("dog")
 public class Dog extends Animal {
-    @Autowired
+    //@Autowired
     private Animal dog;
 
     @Override
